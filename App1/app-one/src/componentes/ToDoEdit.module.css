@@ -1,0 +1,27 @@
+.todoFormEdit {
+    margin: 5px 0;
+    height: 100px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(59, 59, 59);
+    border-radius: 1rem;
+}
+
+.todoInputEdit {
+    padding: 5px;
+    margin: 0 5px;
+    border-radius: 10px;
+    border: none;
+}
+
+.upgradeBtn {
+    padding: 10px;
+    background-color: rgb(6, 180, 0);
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    color: #fff;
+}

@@ -1,0 +1,34 @@
+.todoCard {
+    height: 200px;
+    width: 300px;
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items:unset;
+    justify-content: center;
+    background-color: rgb(59, 59, 59);
+    border-radius: 1rem;
+    color: #fff;
+}
+
+.todoCard h1 {
+    height: 100%;
+    width: 100%;
+}
+
+.btnContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btnContainer input {
+    height: 35px;
+    width: 35px;
+    border: none;
+    border-radius: 30%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
