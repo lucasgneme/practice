@@ -20,7 +20,6 @@ const ToDo = ({ item, onUpdate, onDelete }) => {
                 <ToDoCard item={ item } onEdit={ handleEdit } onDelete={ onDelete }/>
             }
         </div>
-        
     </>
   )
 }
