@@ -1,0 +1,74 @@
+.celd {
+  height: 100px;
+  width: 100px;
+  background-color: #00ff37a2;
+  margin: 5px;
+  transition: all 0.2s;
+  border-radius: 0%;
+  clip-path: polygon(
+    36% 0,
+    0 0,
+    0 29%,
+    0 57%,
+    0 100%,
+    30% 100%,
+    73% 100%,
+    100% 100%,
+    100% 59%,
+    100% 31%,
+    100% 0,
+    74% 0
+  );
+}
+
+.celd--X {
+  background-color: #f00;
+  clip-path: polygon(
+    20% 0,
+    0 20%,
+    30% 50%,
+    0% 80%,
+    20% 100%,
+    50% 70%,
+    80% 100%,
+    100% 80%,
+    70% 50%,
+    100% 20%,
+    80% 0,
+    50% 30%
+  );
+}
+
+.celd--O {
+  background-color: #008cff;
+  border-radius: 50%;
+}
+
+.celd--X.winner {
+  animation: x-winner-anim infinite 2s ease-in-out;
+}
+
+.celd--O.winner {
+  animation: o-winner-anim infinite 1s ease-in-out;
+}
+
+@keyframes x-winner-anim {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes o-winner-anim {
+  0% {
+    border-radius: 50%;
+  }
+  50% {
+    border-radius: 0%;
+  }
+  100% {
+    border-radius: 50%;
+  }
+}
