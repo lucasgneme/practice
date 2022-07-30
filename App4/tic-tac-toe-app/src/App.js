@@ -65,7 +65,7 @@ function App() {
   }
   return (
     <div className='container'>
-      <h1 className='title'>-xox-TATETI-oxo-</h1>
+      <h1 className='title'>TA TE TI</h1>
       <Board
         winCelds={winCelds}
         turn={turn}
